@@ -14,7 +14,6 @@
 
 (println "This text is printed from src/{{main-file-path}}.cljs. Go ahead and edit it and see reloading in action.")
 
-(defn multiply [a b] (* a b))
 {{#om?}}
 ;; this is to support om with the latest version of React
 (set! (.-createClass react) create-react-class){{/om?}}
